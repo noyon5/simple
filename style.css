@@ -1,0 +1,279 @@
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("picture\ bg.jpg");
+}
+.proper{
+    font-size: 20px;
+color: azure;
+    display: inline-block;
+   background-color: gray;
+   border-radius: 5px;
+    border: none;
+    padding: 16px 32px;
+   margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.proper:hover {
+background-color: azure;
+color: black;
+font-weight: 30px;
+font-size: 22px;
+}
+.zixx{
+    display: inline-block;
+    color: black;
+    margin-left: 50px;
+    
+background-color: cyan;
+    padding: 16px 32px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5px;
+    border: none;
+}
+.zixx:hover{
+    background-color: bisque;
+ color: darkslategray;
+ font-size: 20px;
+}
+.more{
+    color: aliceblue;
+    background-color: cadetblue;
+    margin-left: 50px;
+    padding: 16px 32px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5px;
+    border: none;
+
+}
+.more:hover{
+    background-color: aquamarine;
+    color: dimgray;
+    font-size: 20px;
+}
+.moral{
+    color: black;
+    background-color: cornflowerblue;
+    margin-left: 50px;
+    padding: 16px 32px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5px;
+    border: none;
+}
+.moral:hover{
+    background-color: aquamarine;
+    color: dimgray;
+    font-size: 20px;
+
+}
+.css{
+    color: black;
+    background-color: chocolate;
+    margin-left: 50px;
+    padding: 16px 32px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5px;
+    border: none;
+}
+.css:hover{
+    background-color: orange;
+    color: azure;
+    font-size: 20px;
+
+}
+.pythone{
+    color: black;
+    background-color: coral;
+    margin-left: 42px;
+    padding: 16px 32px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5px;
+    border: none;
+}
+.pythone:hover{
+   background-color: blanchedalmond;
+    color: gray;
+    font-size: 20px;
+}
+.jack{
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 38%;
+}
+.source{
+    text-decoration: none;
+    color: cornsilk;
+    background-color: black;
+    border: 2px solid lime;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 7px 13px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-top: 40px;
+    align-items: center;
+   
+}
+.source:hover{
+    background-color: darkslategrey;
+    border: 2px solid black;
+}
+.dot{
+    color: aliceblue;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.none{
+    color: aliceblue;
+    width: 40%;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.one{
+    display: flex;
+}
+.cute{
+    font-size: 27px;
+    color: chartreuse;
+}
+.level{
+    color: aliceblue;
+    width: 40%;
+    margin-top: 29px;
+    margin-left: 10px;
+}
+.jjj{
+    font-size: 27px;
+    color: cyan;
+}
+.the{
+    font-size: 27px;
+    color: coral;
+}
+.pyt{
+    width: 40%;
+    color: aliceblue;
+    margin-top: 29px;
+    margin-left: 50px;
+}
+.low{
+    display: flex;
+}
+.pyth{
+    color: gold;
+    font-size: 27px;
+}
+.dominate{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 19px;
+    color: black;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.dominate:hover{
+    background-color: black;
+    font-size: 23px;
+    color: azure;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-top: 40px;
+    align-items: center;
+}
+.pop{
+    color: aliceblue;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 22px;
+}
+button {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    transition: 0.5s;
+    position: relative;
+    font-size: 17px;
+    background: #333;
+    border: none;
+    color: #fff;
+  
+  }
+  
+  button:hover {
+    letter-spacing: 0.25em;
+    background: #ff1867;
+    color: #ff1867;
+    box-shadow: 0 0 45px #ff1867;
+  }
+  
+  button::before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #222222;
+  }
+  
+  button span {
+    position: relative;
+    z-index: 1;
+  }
+  
+  button i {
+    position: absolute;
+    inset: 0;
+    display: block;
+  }
+  
+  button i::before {
+    content: '';
+    position: absolute;
+    border: 2px solid #ff1867;
+    width: 7px;
+    height: 4px;
+    top: -3.5px;
+    left: 80%;
+    background: #222222;
+    transform: translateX(-50%);
+    transition: 0.5s;
+  }
+  
+  button:hover i::before {
+    width: 20px;
+    left: 20%;
+  }
+  
+  button i::after {
+    content: '';
+    position: absolute;
+    border: 2px solid #ff1867;
+    width: 7px;
+    height: 4px;
+    bottom: -3.5px;
+    left: 20%;
+    background: #222222;
+    transform: translateX(-50%);
+    transition: 0.5s;
+  }
+  
+  button:hover i::after {
+    width: 20px;
+    left: 80%;
+  }
+  .lore{
+    color: #ff1867;
+    margin-left: 25%;
+    font-size: 25px;
+  }
